@@ -1,0 +1,18 @@
+{
+    "terminal.integrated.env.windows": {
+        "CANGJIE_HOME": "D:/1-cangjie_book/cangjie-vs/cangjie-sdk-windows-x64-1.0.1/cangjie",
+        "CANGJIE_PATH": "D:/1-cangjie_book/cangjie-vs/cangjie-sdk-windows-x64-1.0.1/cangjie\\runtime\\lib\\windows_x86_64_llvm;D:/1-cangjie_book/cangjie-vs/cangjie-sdk-windows-x64-1.0.1/cangjie\\bin;D:/1-cangjie_book/cangjie-vs/cangjie-sdk-windows-x64-1.0.1/cangjie\\tools\\bin;D:/1-cangjie_book/cangjie-vs/cangjie-sdk-windows-x64-1.0.1/cangjie\\tools\\lib;D:/1-cangjie_book/cangjie-vs/cangjie-sdk-windows-x64-1.0.1/cangjie\\debugger\\bin;C:\\Users\\lqs-home\\.cjpm\\bin",
+        "PATH": "${config:terminal.integrated.env.windows.CANGJIE_PATH};${env:PATH}"
+    },
+    "editor.gotoLocation.alternativeDeclarationCommand": "editor.action.revealDefinition",
+    "editor.gotoLocation.alternativeDefinitionCommand": "editor.action.revealDefinition",
+    "editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.revealDefinition",
+    "editor.selectionHighlight": false,
+    "files.autoSave": "onFocusChange",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    }
+}
