@@ -1,5 +1,5 @@
 # CangStream(仓穹)
-
+## 仓穹——源自仓颉，广阔如穹的Web框架，用纯仓颉代码构建交互式Web应用
 <div align="center">
 
 ![CangStream Logo](https://img.shields.io/badge/CangStream-v0.1.0-purple?style=for-the-badge)
@@ -10,7 +10,7 @@
 
 像写 Python Streamlit 一样简单 | 无需 HTML/CSS/JS | 10 行代码即可上线
 
-[快速开始](#快速开始) · [文档](#文档) · [示例](#示例) · [贡献](#贡献)
+[快速开始](#快速开始) · [文档](#文档) · [示例](#示例) 
 
 </div>
 
@@ -43,7 +43,7 @@
 
 ```bash
 # 仓颉编译器版本
-cangjie >= 0.53.13
+cangjie >= 1.0.0
 ```
 
 ### Hello World
@@ -285,72 +285,6 @@ cangstream/
 
 ---
 
-## 🛠️ 开发指南
-
-### 克隆项目
-
-```bash
-git clone https://github.com/yourusername/cangstream.git
-cd cangstream
-```
-
-### 运行示例
-
-```bash
-# 主演示应用
-cjpm run
-
-# 运行特定示例
-cd examples
-cjc hello_world.cj && ./hello_world
-cjc counter.cj && ./counter
-cjc dashboard.cj && ./dashboard
-```
-
-### 添加自定义组件
-
-1. 在 `src/cangstream/components/` 创建新文件
-2. 实现 `Component` 接口
-3. 在 `CangStreamApp` 中添加对应方法
-
-示例：添加复选框组件
-
-```cangjie
-// 在 components/input.cj 中添加
-public class CheckboxComponent <: Component {
-    // 实现 render() 和 getId()
-}
-
-// 在 core/app.cj 中添加
-public func checkbox(label: String, key: String): Bool {
-    // 实现逻辑
-}
-```
-
----
-
-## 🤝 贡献
-
-我们欢迎所有形式的贡献！
-
-### 如何贡献
-
-1. Fork 本项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
-### 贡献指南
-
-- 遵循仓颉代码规范
-- 添加单元测试
-- 更新相关文档
-- 保持代码简洁清晰
-
-详见 [CONTRIBUTING.md](CONTRIBUTING.md)
-
----
 
 ## 🗺️ 路线图
 
@@ -426,7 +360,7 @@ CangStream 受到以下优秀项目的启发：
 
 **用仓颉构建 Web 应用，从未如此简单！** 🚀
 
-Made with ❤️ by CangStream Team
+
 
 [⬆️ 回到顶部](#cangstream)
 
