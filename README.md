@@ -3,7 +3,7 @@
 <div align="center">
 
 ![CangStream Logo](https://img.shields.io/badge/CangStream-v0.1.0-purple?style=for-the-badge)
-![Cangjie](https://img.shields.io/badge/Cangjie-0.53.13+-blue?style=for-the-badge)
+![Cangjie](https://img.shields.io/badge/Cangjie-1.0.0+-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **🚀 用纯仓颉代码快速构建 Web 应用的框架**
